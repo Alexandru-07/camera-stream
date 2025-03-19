@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Live Cam</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="main-container">
+      <div id="qrcode"></div>
+      <div class="heading">
+        <h1>Scan the QR Code</h1>
+      </div>
+    </section>
+
+    <section class="video-container">
+      <video id="video" autoplay playsinline></video>
+      <div class="username">
+        <span class="red_symbol">🔴</span>
+        <h1>Live Cam: Alexandru</h1>
+      </div>
+    </section>
+
+    <section class="mobile-video-container">
+      <div>
+        <video id="mobile-video" autoplay playsinline></video>
+        <h1>Mobile Cam Sharing</h1>
+        <div class="mobile-video-buttons">
+          <button id="start-button">Start</button>
+          <button id="stop-button">Stop</button>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
