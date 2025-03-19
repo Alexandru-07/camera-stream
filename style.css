@@ -36,6 +36,15 @@ video {
     display: none;
   }
 
-  .mobile-video-container {
+  .mobile-inner-video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-video {
+    border: 2px solid black;
+    width: 500px;
   }
 }

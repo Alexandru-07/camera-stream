@@ -1,4 +1,4 @@
-var url = "192.168.100.19:5500";
+var url = "https://alexandru-07.github.io/camera-stream/";
 
 new QRCode(document.getElementById("qrcode"), url);
 
